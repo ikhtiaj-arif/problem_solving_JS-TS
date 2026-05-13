@@ -1,6 +1,6 @@
 const str = "JavaScript";
 
-const findVowel = (str: string) => {
+const findVowel = (str: string): number => {
   const strArr = str.toLocaleLowerCase().split("");
   let count: number = 0;
   for (let i = 0; i < strArr.length; i++) {
@@ -14,6 +14,6 @@ const findVowel = (str: string) => {
       count++;
     }
   }
-  return count
+  return count;
 };
 console.log(findVowel(str));
