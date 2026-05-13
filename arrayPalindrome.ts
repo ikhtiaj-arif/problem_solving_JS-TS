@@ -17,7 +17,7 @@ const isArrPalindrome1 = (arr: number[]) => {
 //? other wise increment start, decrement end and keep the loop going
 //? if the loop ends return true
 
-const isArrPalindrome = (arr: number[]) => {
+const isArrPalindrome = (arr: number[]):boolean => {
   let start = 0;
   let end = arr.length - 1;
 
