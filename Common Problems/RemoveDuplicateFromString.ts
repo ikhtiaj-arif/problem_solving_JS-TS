@@ -1,4 +1,4 @@
-const str = "programming"
+{const str = "programming"
 
 // set only keeps unique values
 // we can convert the string into array,
@@ -10,4 +10,4 @@ const removeDuplicate = (str:string):string => {
     const setArr = new Set(strArr)
     return [...setArr].join("")
 }
-console.log(removeDuplicate(str));
+console.log(removeDuplicate(str));}

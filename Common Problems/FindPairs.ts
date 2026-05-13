@@ -1,4 +1,4 @@
-const arr = [1, 2, 3, 4, 5];
+{const arr = [1, 2, 3, 4, 5];
 const target = 6;
 
 //? Need to find all every pair thats sum is equal to target;
@@ -33,3 +33,4 @@ const findPairs = (arr: number[], target: number): number[][] => {
 };
 
 console.log(findPairs(arr, target));
+}

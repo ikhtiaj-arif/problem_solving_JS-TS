@@ -1,4 +1,4 @@
-const arr = [2, 2, 1, 1, 1, 2, 2];
+{const arr = [2, 2, 1, 1, 1, 2, 2];
 
 const findMajorityElem = (arr: number[]) => {
   const arrMap = new Map();
@@ -21,4 +21,4 @@ if(value > maxVal){
 console.log(result);
 };
 
-findMajorityElem(arr)
+findMajorityElem(arr)}

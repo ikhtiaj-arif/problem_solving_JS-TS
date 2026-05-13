@@ -1,4 +1,4 @@
-const str = "Hello World From Bangladesh";
+{const str = "Hello World From Bangladesh";
 
 const reverseWord = (str: string): string => {
   const strArr = str.split(" "); //* linear complexity O(n)
@@ -11,3 +11,4 @@ const reverseWord = (str: string): string => {
 
 console.log(reverseWord(str));
 //? overall linear complexity O(n)
+}

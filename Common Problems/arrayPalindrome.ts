@@ -1,4 +1,4 @@
-const arr = [1, 2, 3, 2, 1];
+{const arr = [1, 2, 3, 2, 1];
 // we can reverse and join then compare both array
 // but it creates 2 different array, increasing space complexity
 const isArrPalindrome1 = (arr: number[]) => {
@@ -31,3 +31,4 @@ const isArrPalindrome = (arr: number[]):boolean => {
   return true;
 };
 console.log(isArrPalindrome(arr));
+}

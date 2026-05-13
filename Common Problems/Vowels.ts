@@ -1,4 +1,4 @@
-const str = "JavaScript";
+{const str = "JavaScript";
 
 const findVowel = (str: string): number => {
   const strArr = str.toLocaleLowerCase().split("");
@@ -17,3 +17,4 @@ const findVowel = (str: string): number => {
   return count;
 };
 console.log(findVowel(str));
+}
